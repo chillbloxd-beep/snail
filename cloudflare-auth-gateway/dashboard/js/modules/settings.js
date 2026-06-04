@@ -1,0 +1,1 @@
+import{state}from"../core/state.js";export function render(root){root.innerHTML=`<section class="card"><h2>Settings</h2><p>Backend secrets stay in Cloudflare Worker variables, not frontend config.</p><pre>${JSON.stringify(state.cfg,null,2)}</pre></section>`}
