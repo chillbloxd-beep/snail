@@ -1,0 +1,16 @@
+name = "study-auth-gateway"
+main = "src/index.js"
+compatibility_date = "2025-08-01"
+
+[vars]
+BACKEND_BASE_URL = "https://YOUR_BACKEND_WORKER.workers.dev"
+SESSION_TTL_HOURS = "12"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "study_auth_db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[assets]
+directory = "./dashboard"
+binding = "ASSETS"

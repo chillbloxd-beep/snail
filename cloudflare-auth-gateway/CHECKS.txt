@@ -1,0 +1,45 @@
+OK - worker src/index.js syntax
+OK - dashboard/js/app.js syntax
+OK - dashboard/js/core/state.js syntax
+OK - dashboard/js/core/diagnostics.js syntax
+OK - dashboard/js/core/worker.js syntax
+OK - dashboard/js/core/ui.js syntax
+OK - dashboard/js/modules/home.js syntax
+OK - dashboard/js/modules/devices.js syntax
+OK - dashboard/js/modules/live.js syntax
+OK - dashboard/js/modules/windows.js syntax
+OK - dashboard/js/modules/browser.js syntax
+OK - dashboard/js/modules/planning.js syntax
+OK - dashboard/js/modules/sessions.js syntax
+OK - dashboard/js/modules/health.js syntax
+OK - dashboard/js/modules/debugger.js syntax
+OK - dashboard/js/modules/logs.js syntax
+OK - dashboard/js/modules/advanced.js syntax
+OK - dashboard/js/modules/settings.js syntax
+OK - dashboard/config.js syntax
+OK - package.json valid
+OK - PBKDF2 password hashing
+OK - HttpOnly cookie
+OK - Secure cookie
+OK - SameSite cookie
+OK - CSRF verification
+OK - RBAC command allowlist
+OK - Audit logs
+OK - Login rate limiting
+OK - Protected assets
+OK - Protected API proxy
+OK - Protected WebSocket proxy
+OK - CSP headers
+OK - Blank unauthenticated root
+OK - Diagnostics tab
+OK - Lazy loading
+OK - Planning templates
+OK - Live grid
+OK - Windows controls
+OK - Browser companion
+OK - Clean dirty logs
+OK - Advanced command center
+
+OVERALL: OK
+
+Real-check limitation: deployment, remote D1 migration, and live WebSocket proxy must be verified in your Cloudflare account because this sandbox cannot deploy to your account.
